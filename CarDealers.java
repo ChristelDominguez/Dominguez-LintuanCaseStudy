@@ -6,19 +6,15 @@ public class CarDealers {
     public void setcarModel(int a){
         CarModel = a;
     }
-    
     public int getCarModel(){
         return CarModel;
     }
      public void setSales(int c){
          salesAmmount = c;
-     }
-    
+     }  
     public int getAmmount(){
-      return salesAmmount;
-      
-    }
-    
+      return salesAmmount;    
+    }   
     public double rewardMoney(int car, int sales){
          rewardMoney = salesAmmount;
          return rewardMoney;
