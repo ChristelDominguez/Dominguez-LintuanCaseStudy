@@ -33,37 +33,6 @@ public class Main{
        c5.setcarModel(3);
        c5.setSales(10000);
        rewardMoney = c5.rewardMoney(c5.getCarModel(),c5.getAmmount());
-       System.out.println ("The reward money for car model 5 Other Model: " +rewardMoney);
-    }
-    
-//Danfer Project
-    private int CarModel;
-    private int salesAmmount;
-    private double rewardMoney;
-    
-    public void setcarModel(int a){
-        CarModel = a;
-    }
-    
-    public int getCarModel(){
-        return CarModel;
-    }
-     public void setSales(int c){
-         salesAmmount = c;
-     }
-    
-    public int getAmmount(){
-      return salesAmmount;
-      
-    }
-    
-    public double rewardMoney(int car, int sales){
-         rewardMoney = salesAmmount;
-         return rewardMoney;
-    }
-}
-
-
-        
+       System.out.println ("The reward money for car model 5 Other Model: " +rewardMoney);    
     
 }
