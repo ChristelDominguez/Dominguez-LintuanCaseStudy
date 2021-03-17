@@ -9,7 +9,6 @@ public class Loopings {
            j = i*i;
            System.out.print(i + " ");
            System.out.println(j);
-          
        }
    
 }
