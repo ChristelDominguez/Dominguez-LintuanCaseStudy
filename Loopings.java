@@ -10,6 +10,5 @@ public class Loopings {
            System.out.print(i + " ");
            System.out.println(j);
        }
-   
 }
 }
