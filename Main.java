@@ -13,12 +13,12 @@ public class Main{
        c1.setcarModel(1);
        c1.setSales(20000);
        rewardMoney = c1.rewardMoney(c1.getCarModel(),c1.getAmmount());
-       System.out.println("The reward money for car model 1 BMW: " + rewardMoney+ " or "+500000*.10);
+       System.out.println("The reward money for car model 1 BMW: " + rewardMoney+ " or " + 500000*.10);
       
        c2.setcarModel(2);
        c2.setSales(15000);
        rewardMoney = c2.rewardMoney (c2.getCarModel(), c2.getAmmount());
-       System.out.println ("The reward money for car model 2 Pajero: " +rewardMoney+" or "+10000*.12);
+       System.out.println ("The reward money for car model 2 Pajero: " +rewardMoney+" or " + 10000*.12);
     
        c3.setcarModel(3);
        c3.setSales(28500);
