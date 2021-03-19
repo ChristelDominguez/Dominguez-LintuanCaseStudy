@@ -7,7 +7,7 @@ public class Main{
         CarDealers c3 = new  CarDealers(); 
         CarDealers c4 = new  CarDealers(); 
         CarDealers c5 = new  CarDealers(); 
-      	 double rewardMoney;
+      double rewardMoney;
        
        System.out.println("Program by: Christel Pauline Dominguez");
        c1.setcarModel(1);
