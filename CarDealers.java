@@ -2,6 +2,7 @@ public class CarDealers {
     private int CarModel;
     private int salesAmmount;
     private double rewardMoney;
+    private String Add;
     
     public void setcarModel(int a){
         CarModel = a;
@@ -18,6 +19,13 @@ public class CarDealers {
     public double rewardMoney(int car, int sales){
          rewardMoney = salesAmmount;
          return rewardMoney;
+    }
+    
+    public void setAdd (int Adds){
+        Add = Adds;
+    }
+    public void getAddr(){
+        return Add;
     }
 }
 
