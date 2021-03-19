@@ -2,12 +2,12 @@ public class Main{
 
     public static void main(String[] args) {
         
-       CarDealers c1 = new  CarDealers();
-        CarDealers c2 = new CarDealers(); 
-       CarDealers c3 = new  CarDealers(); 
+        CarDealers c1 = new  CarDealers();
+        CarDealers c2 = new  CarDealers(); 
+        CarDealers c3 = new  CarDealers(); 
         CarDealers c4 = new  CarDealers(); 
         CarDealers c5 = new  CarDealers(); 
-       double rewardMoney;
+      	 double rewardMoney;
        
        System.out.println("Program by: Christel Pauline Dominguez");
        c1.setcarModel(1);
